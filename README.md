@@ -1,4 +1,4 @@
-# Portfólio Pessoal - Kamylla Cristina
+# Portfólio Pessoal - Kamylla Oliveira
 
 Projeto desenvolvido para a atividade prática de Aplicação Web e móveis.
 
