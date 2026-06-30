@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Kamylla Oliveira</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cabeçalho principal com menu de navegação por âncoras -->
+  <header class="header">
+    <nav class="navbar">
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+  ☀️
+</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção inicial do portfólio -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p class="tag">Designer Gráfico • Estudante de Engenharia de Software</p>
+        <h1>Olá, eu sou Kamylla Oliveira.</h1>
+        <p>
+          Crio soluções visuais há mais de 10 anos e, atualmente, estou em transição
+          para a área de tecnologia, unindo criatividade, design e programação.
+        </p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn primary">Ver portfólio</a>
+          <a href="#contato" class="btn secondary">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Sobre mim -->
+    <section id="sobre" class="section">
+      <div class="section-title">
+        <h2>Sobre mim</h2>
+      </div>
+
+      <div class="card">
+        <p>
+          Meu nome é Kamylla, atualmente sou designer gráfico e trabalho há mais de
+          10 anos na área. Apesar da minha experiência com criação visual, meu desejo
+          é migrar e me inserir na área de tecnologia.
+        </p>
+        <p>
+          Sempre tive interesse por tecnologia, mas durante muito tempo não me propus
+          a fazer essa mudança de forma concreta. No ano passado, resolvi me dedicar
+          a esse objetivo e comecei a cursar Engenharia de Software.
+        </p>
+        <p>
+          Ainda não defini exatamente qual caminho seguir dentro da tecnologia, pois
+          existem muitas possibilidades. Por isso, estou conhecendo diferentes áreas
+          ao longo da graduação para tomar essa decisão de forma mais consciente.
+        </p>
+        <p>
+          No meu tempo livre, gosto de ler. A leitura é um hobby que me ajuda a ampliar
+          minha visão, aprender novos assuntos e desenvolver minha criatividade.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Formação -->
+    <section id="formacao" class="section">
+      <div class="section-title">
+        <h2>Formação</h2>
+      </div>
+
+      <div class="grid">
+        <article class="info-card">
+          <h3>Engenharia de Software</h3>
+          <p>Centro Universitário Internacional Uninter</p>
+          <small>Graduação em andamento</small>
+        </article>
+
+        <article class="info-card">
+          <h3>Ensino Médio</h3>
+          <p>Ensino médio completo</p>
+          <small>Formação básica concluída</small>
+        </article>
+
+        <article class="info-card">
+          <h3>Experiência profissional</h3>
+          <p>Mais de 10 anos de atuação como designer gráfico.</p>
+          <small>Design, comunicação visual e criação digital</small>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Portfólio -->
+    <section id="portfolio" class="section">
+      <div class="section-title">
+        <h2>Portfólio</h2>
+      </div>
+
+      <div class="portfolio-box">
+  <div>
+    <h3>Trabalhos de Design Gráfico</h3>
+    <p>
+      Meu portfólio reúne projetos visuais desenvolvidos ao longo da minha
+      trajetória como designer gráfico. Nele, apresento trabalhos relacionados
+      à criação de peças digitais, identidade visual, comunicação para redes
+      sociais e outros materiais gráficos.
+    </p>
+    <p>
+      Este espaço representa minha experiência criativa e também minha base
+      profissional para a transição para a tecnologia.
+    </p>
+  </div>
+</div>
+
+<div class="portfolio-images">
+  <div class="portfolio-item">
+    <img src="imagens/projeto1.png" alt="Projeto de design gráfico 1">
+    <p>Projeto de design gráfico</p>
+  </div>
+
+  <div class="portfolio-item">
+    <img src="imagens/projeto2.png" alt="Projeto de design gráfico 2">
+    <p>Peça visual para redes sociais</p>
+  </div>
+
+  <div class="portfolio-item">
+    <img src="imagens/projeto3.png" alt="Projeto de design gráfico 3">
+    <p>Identidade visual ou material gráfico</p>
+  </div>
+</div>
+
+<div class="behance-button-area">
+  <a href="https://www.behance.net/kamyllafoliveira" target="_blank" class="btn primary">
+    Acessar Behance
+  </a>
+</div>
+
+    <!-- Seção obrigatória: Contato -->
+    <section id="contato" class="section">
+      <div class="section-title">
+        <h2>Contato</h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-text">
+          <h3>Vamos conversar?</h3>
+          <p>
+            Preencha o formulário abaixo para simular o envio de uma mensagem.
+          </p>
+          <p><strong>E-mail:</strong> Kamyllafreitas.oliveira@gmail.com</p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+          <button type="submit" class="btn primary">Enviar mensagem</button>
+
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Kamylla Cristina Freitas de Oliveira. Portfólio pessoal desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
