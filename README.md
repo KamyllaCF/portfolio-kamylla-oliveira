@@ -1,6 +1,6 @@
 # Portfólio Pessoal - Kamylla Cristina
 
-Projeto desenvolvido para a atividade prática de Fundamentos da Programação Web.
+Projeto desenvolvido para a atividade prática de Aplicação Web e móveis.
 
 ## Tecnologias utilizadas
 
